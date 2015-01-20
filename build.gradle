@@ -22,7 +22,9 @@ dependencies {
   )
 }
 
-artifactoryPublish.onlyIf { isMaster }
+artifactoryPublish.onlyIf {
+  System.env.'TRAVIS_BRANCH' == "master" && System.env.'TRAVIS_PULL_REQUEST' == "false"
+}
 
 artifactory {
   contextUrl = "http://oss.jfrog.org/artifactory"
