@@ -1,5 +1,4 @@
 language: groovy
-jdk: oraclejdk6
 script: ./gradlew ci
 env:
   global:
