@@ -1,0 +1,7 @@
+language: groovy
+jdk: oraclejdk6
+script: ./gradlew ci
+env:
+  global:
+  - secure: bzb4TSoL3+xFlpHkPFfJj4XBxqWui1zNLqoeGFhlekt6per0Qt6wwKemISCTkA3ZRnHJL2q0lH1Pw8yaM2D++zxi01wofY0Y9jHUOXvbtbMAkOv6DagV5IvKYqGbyLUF3q2wRswPUBsPIsl8gEs9A4VxUwZdIR3vvliYKIYiaVU=
+  - secure: dFfv9yrVh5GtYBZ0l4zD4RBr5wjseFoB2cQmZLKKvVYC4OBFbC0RJ2MakVN7SU8WTtlqkidqOsR1w180rIghX2kQ5WTDZ2Y/5K7YP7n1D+eX1vlcnnlx5EA+V6WnsMvWX4hTBEpDztrRf34KrnFNybN95UqG/yqvLv9t0++L+io=
